@@ -1,0 +1,249 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\数据结构2-2: 线段树与树状数组">
+      <UniqueIdentifier>{1c650db6-890b-48f1-954c-5911bcc9e85f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\动态规划2">
+      <UniqueIdentifier>{e91bef03-9717-4c99-ae7b-ce39821d7cc1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\【算法1-4】递推与递归">
+      <UniqueIdentifier>{3748ff46-a27a-4aac-aa73-d294a8831d65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\动态规划1">
+      <UniqueIdentifier>{b6535677-301e-4d79-860c-fdb68fb8f5c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\【数学1】基础数学问题">
+      <UniqueIdentifier>{dd6b7d6e-de86-499e-a524-a7f9754e0e88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\【数学2-3】概率与统计">
+      <UniqueIdentifier>{b111fb64-7099-4ecf-bdb1-173d8bb9f989}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\【数据结构1-2】二叉树">
+      <UniqueIdentifier>{e6d7d9fe-351d-48dd-8161-a82de8ca8226}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\【算法1-5】贪心">
+      <UniqueIdentifier>{78bc3fe7-af27-47df-a44e-d9cc48407149}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\【算法1-6】二分查找与二分答案">
+      <UniqueIdentifier>{0538bd12-2da2-4c1e-9d87-4355938a4468}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\【算法1-3】暴力枚举">
+      <UniqueIdentifier>{06555de4-83bd-4df9-81ab-0a336a667265}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\【算法2-3】分治">
+      <UniqueIdentifier>{d558ab21-6745-4047-bf6f-d8bc6e01d7e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\【数据结构1-4】图的基本应用">
+      <UniqueIdentifier>{31a02f80-8943-4d54-a7af-e22aaa773b2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\【算法2-1】前缀和与差分">
+      <UniqueIdentifier>{bd1355cb-4cef-4a75-a309-b3eeadbfea17}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="数学1-基础数学问题\P1469-找筷子.cpp">
+      <Filter>源文件\【数学1】基础数学问题</Filter>
+    </ClCompile>
+    <ClCompile Include="数学1-基础数学问题\P1017-进制转换.cpp">
+      <Filter>源文件\【数学1】基础数学问题</Filter>
+    </ClCompile>
+    <ClCompile Include="数学1-基础数学问题\P2926-[USACO08DEC]Patting Heads S.cpp">
+      <Filter>源文件\【数学1】基础数学问题</Filter>
+    </ClCompile>
+    <ClCompile Include="数学1-基础数学问题\P1572-计算分数.cpp">
+      <Filter>源文件\【数学1】基础数学问题</Filter>
+    </ClCompile>
+    <ClCompile Include="数学1-基础数学问题\P1414-又是毕业季II.cpp">
+      <Filter>源文件\【数学1】基础数学问题</Filter>
+    </ClCompile>
+    <ClCompile Include="动态规划1\P1216-[USACO1.5][IOI1994]数字三角形 Number Triangles.cpp">
+      <Filter>源文件\动态规划1</Filter>
+    </ClCompile>
+    <ClCompile Include="动态规划1\P1048-[NOIP2005 普及组] 采药.cpp">
+      <Filter>源文件\动态规划1</Filter>
+    </ClCompile>
+    <ClCompile Include="动态规划2\P1020-[NOIP1999 普及组]导弹拦截.cpp">
+      <Filter>源文件\动态规划2</Filter>
+    </ClCompile>
+    <ClCompile Include="动态规划1\P1616-疯狂的采药.cpp">
+      <Filter>源文件\动态规划1</Filter>
+    </ClCompile>
+    <ClCompile Include="动态规划1\P1802-5倍经验日.cpp">
+      <Filter>源文件\动态规划1</Filter>
+    </ClCompile>
+    <ClCompile Include="动态规划1\P1002-[NOIP2002 普及组]过河卒.cpp">
+      <Filter>源文件\动态规划1</Filter>
+    </ClCompile>
+    <ClCompile Include="动态规划1\P1434-[SHOI2002]滑雪.cpp">
+      <Filter>源文件\动态规划1</Filter>
+    </ClCompile>
+    <ClCompile Include="动态规划1\P2196-[NOIP1996 提高组]挖地雷.cpp">
+      <Filter>源文件\动态规划1</Filter>
+    </ClCompile>
+    <ClCompile Include="动态规划1\P4017-最大食物链计数.cpp">
+      <Filter>源文件\动态规划1</Filter>
+    </ClCompile>
+    <ClCompile Include="动态规划2\P2758-编辑距离.cpp">
+      <Filter>源文件\动态规划2</Filter>
+    </ClCompile>
+    <ClCompile Include="动态规划2\P1077-[NOIP2012 普及组]摆花.cpp">
+      <Filter>源文件\动态规划2</Filter>
+    </ClCompile>
+    <ClCompile Include="动态规划2\P1233-木棍加工.cpp">
+      <Filter>源文件\动态规划2</Filter>
+    </ClCompile>
+    <ClCompile Include="动态规划2\P1091-[NOIP2004 提高组] 合唱队形.cpp">
+      <Filter>源文件\动态规划2</Filter>
+    </ClCompile>
+    <ClCompile Include="动态规划2\P1439-【模板】最长公共子序列.cpp">
+      <Filter>源文件\动态规划2</Filter>
+    </ClCompile>
+    <ClCompile Include="动态规划2\P1280-尼克的任务.cpp">
+      <Filter>源文件\动态规划2</Filter>
+    </ClCompile>
+    <ClCompile Include="算法1-4-递推与递归\P1255-数楼梯.cpp">
+      <Filter>源文件\【算法1-4】递推与递归</Filter>
+    </ClCompile>
+    <ClCompile Include="算法1-4-递推与递归\P1044-[NOIP2003 普及组]栈.cpp">
+      <Filter>源文件\【算法1-4】递推与递归</Filter>
+    </ClCompile>
+    <ClCompile Include="算法1-4-递推与递归\P1028-[NOIP2001 普及组]数的计算.cpp">
+      <Filter>源文件\【算法1-4】递推与递归</Filter>
+    </ClCompile>
+    <ClCompile Include="算法1-4-递推与递归\P1464-Function.cpp">
+      <Filter>源文件\【算法1-4】递推与递归</Filter>
+    </ClCompile>
+    <ClCompile Include="数学2-3-概率与统计\P4316-绿豆蛙的归宿.cpp">
+      <Filter>源文件\【数学2-3】概率与统计</Filter>
+    </ClCompile>
+    <ClCompile Include="数学1-基础数学问题\P1143-进制转换.cpp">
+      <Filter>源文件\【数学1】基础数学问题</Filter>
+    </ClCompile>
+    <ClCompile Include="数学1-基础数学问题\P1100-高低位交换.cpp">
+      <Filter>源文件\【数学1】基础数学问题</Filter>
+    </ClCompile>
+    <ClCompile Include="数学1-基础数学问题\P1866-编号.cpp">
+      <Filter>源文件\【数学1】基础数学问题</Filter>
+    </ClCompile>
+    <ClCompile Include="数学1-基础数学问题\P3913-车的攻击.cpp">
+      <Filter>源文件\【数学1】基础数学问题</Filter>
+    </ClCompile>
+    <ClCompile Include="数据结构1-2-二叉树\P1827-[USACO3.4]美国血统 American Heritage.cpp">
+      <Filter>源文件\【数据结构1-2】二叉树</Filter>
+    </ClCompile>
+    <ClCompile Include="数学1-基础数学问题\P3383-【模板】线性筛素数.cpp">
+      <Filter>源文件\【数学1】基础数学问题</Filter>
+    </ClCompile>
+    <ClCompile Include="算法1-5-贪心\P1223-排队接水.cpp">
+      <Filter>源文件\【算法1-5】贪心</Filter>
+    </ClCompile>
+    <ClCompile Include="算法1-5-贪心\P1803-凌乱的yyy线段覆盖.cpp">
+      <Filter>源文件\【算法1-5】贪心</Filter>
+    </ClCompile>
+    <ClCompile Include="算法1-5-贪心\P3817-小A的糖果.cpp">
+      <Filter>源文件\【算法1-5】贪心</Filter>
+    </ClCompile>
+    <ClCompile Include="算法1-5-贪心\P1478-陶陶摘苹果（升级版）.cpp">
+      <Filter>源文件\【算法1-5】贪心</Filter>
+    </ClCompile>
+    <ClCompile Include="算法1-5-贪心\P5019-[NOIP2018 提高组] 铺设道路.cpp">
+      <Filter>源文件\【算法1-5】贪心</Filter>
+    </ClCompile>
+    <ClCompile Include="算法1-6-二分查找与二分答案\P1024-[NOIP2001 提高组] 一元三次方程求解.cpp">
+      <Filter>源文件\【算法1-6】二分查找与二分答案</Filter>
+    </ClCompile>
+    <ClCompile Include="算法1-6-二分查找与二分答案\P2249-【深基13.例1】查找.cpp">
+      <Filter>源文件\【算法1-6】二分查找与二分答案</Filter>
+    </ClCompile>
+    <ClCompile Include="算法1-6-二分查找与二分答案\P1102-A-B 数对.cpp">
+      <Filter>源文件\【算法1-6】二分查找与二分答案</Filter>
+    </ClCompile>
+    <ClCompile Include="算法1-3-暴力枚举\P2241-统计方形（数据加强版）.cpp">
+      <Filter>源文件\【算法1-3】暴力枚举</Filter>
+    </ClCompile>
+    <ClCompile Include="算法1-3-暴力枚举\P2089-烤鸡.cpp">
+      <Filter>源文件\【算法1-3】暴力枚举</Filter>
+    </ClCompile>
+    <ClCompile Include="算法1-6-二分查找与二分答案\P1678-烦恼的高考志愿.cpp">
+      <Filter>源文件\【算法1-6】二分查找与二分答案</Filter>
+    </ClCompile>
+    <ClCompile Include="算法2-3-分治\P2415-集合求和.cpp">
+      <Filter>源文件\【算法2-3】分治</Filter>
+    </ClCompile>
+    <ClCompile Include="算法2-3-分治\P1177-【模板】快速排序.cpp">
+      <Filter>源文件\【算法2-3】分治</Filter>
+    </ClCompile>
+    <ClCompile Include="数据结构1-4-图的基本应用\P5318-【深基18.例3】查找文献.cpp">
+      <Filter>源文件\【数据结构1-4】图的基本应用</Filter>
+    </ClCompile>
+    <ClCompile Include="数据结构1-4-图的基本应用\P3916-图的遍历.cpp">
+      <Filter>源文件\【数据结构1-4】图的基本应用</Filter>
+    </ClCompile>
+    <ClCompile Include="算法2-3-分治\P1226-【模板】快速幂取余运算.cpp">
+      <Filter>源文件\【算法2-3】分治</Filter>
+    </ClCompile>
+    <ClCompile Include="算法2-3-分治\P1115-最大子段和.cpp">
+      <Filter>源文件\【算法2-3】分治</Filter>
+    </ClCompile>
+    <ClCompile Include="数学2-3-概率与统计\P1199-[NOIP2010 普及组] 三国游戏 题解.cpp">
+      <Filter>源文件\【数学2-3】概率与统计</Filter>
+    </ClCompile>
+    <ClCompile Include="数学2-3-概率与统计\P1288-取数游戏II.cpp">
+      <Filter>源文件\【数学2-3】概率与统计</Filter>
+    </ClCompile>
+    <ClCompile Include="数学2-3-概率与统计\P1297-[国家集训队]单选错位.cpp">
+      <Filter>源文件\【数学2-3】概率与统计</Filter>
+    </ClCompile>
+    <ClCompile Include="数学2-3-概率与统计\P2197-【模板】nim 游戏.cpp">
+      <Filter>源文件\【数学2-3】概率与统计</Filter>
+    </ClCompile>
+    <ClCompile Include="数学2-3-概率与统计\P3802-小魔女帕琪.cpp">
+      <Filter>源文件\【数学2-3】概率与统计</Filter>
+    </ClCompile>
+    <ClCompile Include="算法1-4-递推与递归\P2437-蜜蜂路线.cpp">
+      <Filter>源文件\【算法1-4】递推与递归</Filter>
+    </ClCompile>
+    <ClCompile Include="算法1-4-递推与递归\P1164 小A点菜.cpp">
+      <Filter>源文件\【算法1-4】递推与递归</Filter>
+    </ClCompile>
+    <ClCompile Include="算法2-1-前缀和与差分\P5638-【CSGRound2】光骓者的荣耀.cpp">
+      <Filter>源文件\【算法2-1】前缀和与差分</Filter>
+    </ClCompile>
+    <ClCompile Include="算法2-1-前缀和与差分\P1115-最大子段和.cpp">
+      <Filter>源文件\【算法2-1】前缀和与差分</Filter>
+    </ClCompile>
+    <ClCompile Include="算法2-1-前缀和与差分\P3397-地毯.cpp">
+      <Filter>源文件\【算法2-1】前缀和与差分</Filter>
+    </ClCompile>
+    <ClCompile Include="数学1-基础数学问题\P1029-[NOIP2001 普及组] 最大公约数和最小公倍数问题.cpp">
+      <Filter>源文件\【数学1】基础数学问题</Filter>
+    </ClCompile>
+    <ClCompile Include="数学1-基础数学问题\P4057-晨跑.cpp">
+      <Filter>源文件\【数学1】基础数学问题</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="数学1-基础数学问题\README.md">
+      <Filter>源文件\【数学1】基础数学问题</Filter>
+    </None>
+    <None Include="动态规划1\README.md">
+      <Filter>源文件\动态规划1</Filter>
+    </None>
+    <None Include="数学2-3-概率与统计\README.md">
+      <Filter>源文件\【数学2-3】概率与统计</Filter>
+    </None>
+  </ItemGroup>
+</Project>
