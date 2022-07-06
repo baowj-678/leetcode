@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1a650e42-27fe-4673-8d0d-3d154e658214" name="Changes" comment="init">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/python.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/python.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1. 两数之和.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/10. 正则表达式匹配.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1002. 查找常用字符.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/101. 对称二叉树.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1024. 视频拼接.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1025. 除数博弈.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/106. 从中序与后序遍历序列构造二叉树.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/107. 二叉树的层次遍历 II.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/108. 将有序数组转换为二叉搜索树.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1089. 复写零.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/109. 有序链表转换二叉搜索树.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/110. 平衡二叉树.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/111. 二叉树的最小深度.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/112. 路径总和.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/113. 路径总和 II.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/114. 二叉树展开为链表.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/116. 填充每个节点的下一个右侧节点指针.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/117. 填充每个节点的下一个右侧节点指针 II.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/12. 整数转罗马数字.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/120. 三角形最小路径和.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/121. 买卖股票的最佳时机.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/122. 买卖股票的最佳时机 II.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/125. 验证回文串.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/130. 被围绕的区域.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/133. 克隆图.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/134. 加油站.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1345. 跳跃游戏 IV.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/136. 只出现一次的数字.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/137. 只出现一次的数字 II.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/139. 单词拆分.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/141. 环形链表.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1410. HTML 实体解析器.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1411. 给 N x 3 网格图涂色的方案数.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/142. 环形链表 II.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1431. 拥有最多糖果的孩子.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/145. 二叉树的后序遍历.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/152. 乘积最大子数组.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/155. 最小栈.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/167. 两数之和 II - 输入有序数组.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/169. 多数元素.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/174. 地下城游戏.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/18. 四数之和.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/198. 打家劫舍.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/200. 岛屿数量.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/207. 课程表.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/213. 打家劫舍 II.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/216. 组合总和 III.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/221. 最大正方形.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/226. 翻转二叉树.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/23. 合并K个排序链表.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/235. 二叉搜索树的最近公共祖先.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/240. 搜索二维矩阵 II.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/25. K 个一组翻转链表.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/257. 二叉树的所有路径.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/263. 丑数.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/264. 丑数 II.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/29. 两数相除.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/29. 顺时针打印矩阵.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30. 串联所有单词的子串.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/309. 最佳买卖股票时机含冷冻期.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/31. 下一个排列.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/312. 戳气球.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/315. 计算右侧小于当前元素的个数.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/329. 矩阵中的最长递增路径.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/33. 搜索旋转排序数组.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/332. 重新安排行程.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/336. 回文对.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/337. 打家劫舍 III.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/34. 在排序数组中查找元素的第一个和最后一个位置.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/343. 整数拆分.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/344. 反转字符串.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/347. 前 K 个高频元素.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/37. 解数独.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/376. 摆动序列.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/378. 有序矩阵中第K小的元素.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/39.组合总和.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/392. 判断子序列.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/394. 字符串解码.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/4. 寻找两个正序数组的中位数.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/40. 组合总和 II.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/404. 左叶子之和.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/410. 分割数组的最大值.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/415. 字符串相加.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/42. 接雨水.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/43. 字符串相乘.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/434. 字符串中的单词数.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/455. 分发饼干.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/47. 全排列 II.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/486. 预测赢家.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/501. 二叉搜索树中的众数.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/51. N 皇后.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/52. N皇后 II.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/529. 扫雷游戏.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/530. 二叉搜索树的最小绝对差.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/538. 把二叉搜索树转换为累加树.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/55. 跳跃游戏.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5544. 执行操作后字典序最小的字符串.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/60. 第k个排列.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/617. 合并二叉树.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/62. 不同路径.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/63. 不同路径 II.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/632. 最小区间.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/637. 二叉树的层平均值.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/64. 最小路径和.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/64. 求1+2++n.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/647. 回文子串.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/685. 冗余连接 II.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/696. 计数二进制子串.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/701. 二叉搜索树中的插入操作.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/733. 图像渲染.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/75. 颜色分类.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/77. 组合.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/771. 宝石与石头.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/78. 子集.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/786. 第 K 个最小的素数分数.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/79. 单词搜索.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/834. 树中距离之和.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/84. 柱状图中最大的矩形.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/844. 比较含退格的字符串.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/89. 格雷编码.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/892. 三维形体的表面积.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/893. 特殊等价字符串组.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/898. 子数组按位或操作.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/91. 解码方法.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/914. 卡牌分组.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/93. 复原IP地址.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/94. 二叉树的中序遍历.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/95. 不同的二叉搜索树 II.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/96. 不同的二叉搜索树.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/968. 监控二叉树.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/974. 和可被 K 整除的子数组.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/977. 有序数组的平方.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/983. 最低票价.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/99. 恢复二叉搜索树.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LCP 19. 秋叶收藏集.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ListNode.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tempCodeRunnerFile.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tree.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/剑指 Offer 11. 旋转数组的最小数字.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/剑指 Offer 20. 表示数值的字符串.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/剑指 Offer 33. 二叉搜索树的后序遍历序列.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/面试题 08.03. 魔术索引.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/面试题 16.01. 交换数字.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/面试题 16.11. 跳水板.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/面试题 17.12. BiNode.py" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2BO22DNb3HzI2v1EsKFXGDFgZUl" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/tools" />
+  </component>
+  <component name="RunManager" selected="Python.GetMarks">
+    <configuration name="GetMarks" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tools" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tools/GetMarks.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="tools" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\WILL\Anaconda3\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tools" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.tools" />
+      <item itemvalue="Python.GetMarks" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.GetMarks" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1a650e42-27fe-4673-8d0d-3d154e658214" name="Changes" comment="" />
+      <created>1656762605900</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1656762605900</updated>
+    </task>
+    <task id="LOCAL-00001" summary="init">
+      <created>1657075663103</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1657075663103</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init" />
+    <option name="LAST_COMMIT_MESSAGE" value="init" />
+  </component>
+</project>
