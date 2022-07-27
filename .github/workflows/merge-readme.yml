@@ -1,0 +1,33 @@
+name: merge-readme
+on:
+  push:
+    branches:
+      - '**'
+      - '!main'
+jobs:
+  merge-readmes:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/setup-python@v4.1.0
+        with:
+          python-version: 3.7
+      - name: clone
+        run: |
+          mkdir tree
+          git clone https://github.com/baowj-678/leetcode.git -b go tree/go
+          git clone https://github.com/baowj-678/leetcode.git -b java tree/java
+          git clone https://github.com/baowj-678/leetcode.git -b cpp tree/cpp
+          git clone https://github.com/baowj-678/leetcode.git -b python tree/python
+          git clone https://github.com/baowj-678/leetcode.git -b sql tree/sql
+          git clone https://${{secrets.PAT}}@github.com/baowj-678/leetcode.git main
+      - name: merge
+        run: |
+          python main/.github/workflows/merge-readme.py main/base.md tree main/README.md
+      - name: git-push
+        run: |
+          cd main/
+          git config --global user.email "bwj_678@qq.com"
+          git config --global user.name "leetcode-merge-robot"
+          git add README.md
+          git commit -m 'auto merge README.md'
+          git push https://${{secrets.PAT}}@github.com/baowj-678/leetcode.git
