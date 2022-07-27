@@ -9,15 +9,15 @@ import (
 )
 
 /**
-* Definition for a Node.
+* Definition for a Node429.
  */
 
-type Node struct {
+type Node429 struct {
 	Val      int
-	Children []*Node
+	Children []*Node429
 }
 
-func levelOrder(root *Node) [][]int {
+func levelOrder(root *Node429) [][]int {
 	if root == nil {
 		return [][]int{}
 	}
@@ -35,9 +35,9 @@ func levelOrder(root *Node) [][]int {
 			level = []int{}
 			queue.PushBack(nil)
 		} else {
-			level = append(level, tmp.Value.(*Node).Val)
-			for i := 0; i < len(tmp.Value.(*Node).Children); i++ {
-				queue.PushBack(tmp.Value.(*Node).Children[i])
+			level = append(level, tmp.Value.(*Node429).Val)
+			for i := 0; i < len(tmp.Value.(*Node429).Children); i++ {
+				queue.PushBack(tmp.Value.(*Node429).Children[i])
 			}
 		}
 	}

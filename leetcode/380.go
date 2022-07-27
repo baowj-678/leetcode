@@ -5,7 +5,6 @@
 package main
 
 import (
-	"fmt"
 	"math/rand"
 )
 
@@ -14,7 +13,7 @@ type RandomizedSet struct {
 	array []int
 }
 
-func Constructor() RandomizedSet {
+func Constructor380() RandomizedSet {
 	return RandomizedSet{
 		map[int]int{},
 		[]int{},
@@ -53,10 +52,6 @@ func (this *RandomizedSet) GetRandom() int {
 }
 
 func main() {
-	obj := Constructor()
-	obj.Insert(0)
-	obj.Remove(0)
-	fmt.Println(obj.Insert(0))
 }
 
 /**
