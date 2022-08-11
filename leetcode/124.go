@@ -7,17 +7,17 @@ package main
 const MIN = -100000000
 
 func maxPathSum(root *TreeNode) int {
-	max, _ := dfs(root)
+	max, _ := dfs124(root)
 	return max
 }
 
-func dfs(root *TreeNode) (max int, nodeMax int) {
+func dfs124(root *TreeNode) (max int, nodeMax int) {
 	max, nodeMax, leftNodeMax, rightMax, rightNodeMax := MIN, MIN, MIN, MIN, MIN
 	if root.Left != nil {
-		max, leftNodeMax = dfs(root.Left)
+		max, leftNodeMax = dfs124(root.Left)
 	}
 	if root.Right != nil {
-		rightMax, rightNodeMax = dfs(root.Right)
+		rightMax, rightNodeMax = dfs124(root.Right)
 		if rightMax > max {
 			max = rightMax
 		}

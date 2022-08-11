@@ -8,16 +8,16 @@ package main
  * Definition for a QuadTree node.
  */
 
-type Node struct {
+type Node558 struct {
 	Val         bool
 	IsLeaf      bool
-	TopLeft     *Node
-	TopRight    *Node
-	BottomLeft  *Node
-	BottomRight *Node
+	TopLeft     *Node558
+	TopRight    *Node558
+	BottomLeft  *Node558
+	BottomRight *Node558
 }
 
-func intersect(quadTree1 *Node, quadTree2 *Node) *Node {
+func intersect(quadTree1 *Node558, quadTree2 *Node558) *Node558 {
 	if quadTree1.IsLeaf && quadTree2.IsLeaf {
 		quadTree1.Val = quadTree1.Val || quadTree2.Val
 		return quadTree1
@@ -45,7 +45,7 @@ func intersect(quadTree1 *Node, quadTree2 *Node) *Node {
 	}
 }
 
-func isMerge(quadTree *Node) bool {
+func isMerge(quadTree *Node558) bool {
 	a := quadTree.TopLeft
 	b := quadTree.TopRight
 	c := quadTree.BottomLeft

@@ -23,7 +23,7 @@ type Skiplist struct {
 }
 
 // New Create new Skiplist
-func Constructor() Skiplist {
+func Constructor1206() Skiplist {
 	return Skiplist{
 		head: &SkipNode{
 			-1,
@@ -105,7 +105,4 @@ func (this *Skiplist) Erase(num int) bool {
 		}
 	}
 	return res
-}
-
-func main() {
 }
