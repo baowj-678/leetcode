@@ -11,7 +11,7 @@ type MyCircularQueue struct {
 	isEmpty bool
 }
 
-func Constructor(k int) MyCircularQueue {
+func Constructor622(k int) MyCircularQueue {
 	return MyCircularQueue{
 		queue:   make([]int, k),
 		rear:    0,
@@ -62,13 +62,4 @@ func (this *MyCircularQueue) IsEmpty() bool {
 
 func (this *MyCircularQueue) IsFull() bool {
 	return !this.isEmpty && this.front == this.rear
-}
-
-func main() {
-	queue := Constructor(3)
-	println(queue.EnQueue(1))
-	println(queue.EnQueue(2))
-	println(queue.EnQueue(3))
-	println(queue.EnQueue(4))
-	println(queue.Rear())
 }

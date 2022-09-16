@@ -20,10 +20,10 @@ func reachableNodes(n int, edges [][]int, restricted []int) int {
 	for _, x := range restricted {
 		restrictedMap[x] = true
 	}
-	return dfs(list, flag, restrictedMap, 0)
+	return dfs6139(list, flag, restrictedMap, 0)
 }
 
-func dfs(list [][]int, flag []bool, restricted map[int]bool, x int) int {
+func dfs6139(list [][]int, flag []bool, restricted map[int]bool, x int) int {
 	if flag[x] {
 		return 0
 	}
@@ -33,7 +33,7 @@ func dfs(list [][]int, flag []bool, restricted map[int]bool, x int) int {
 	}
 	cnt := 1
 	for _, y := range list[x] {
-		cnt += dfs(list, flag, restricted, y)
+		cnt += dfs6139(list, flag, restricted, y)
 	}
 	return cnt
 }

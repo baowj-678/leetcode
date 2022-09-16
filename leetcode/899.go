@@ -25,7 +25,7 @@ func orderlyQueue(s string, k int) string {
 	if k == 1 {
 		maxStart := 0
 		for i := 1; i < len(s); i++ {
-			if cmp(s, maxStart, i) > 0 {
+			if cmp899(s, maxStart, i) > 0 {
 				maxStart = i
 			}
 		}
@@ -41,7 +41,7 @@ func orderlyQueue(s string, k int) string {
 	return res
 }
 
-func cmp(s string, startA int, startB int) int {
+func cmp899(s string, startA int, startB int) int {
 	for i := 0; i < len(s); i++ {
 		a := (startA + i) % len(s)
 		b := (startB + i) % len(s)
