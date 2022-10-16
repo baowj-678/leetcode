@@ -17,7 +17,7 @@ type OrderedStream struct {
 	head      *StreamNode
 }
 
-func Constructor(n int) OrderedStream {
+func Constructor1656(n int) OrderedStream {
 	return OrderedStream{
 		length:    0,
 		maxLength: n,

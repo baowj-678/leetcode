@@ -15,7 +15,7 @@ func countSpecialNumbers(n int) int {
 		j--
 		i++
 	}
-	return dp(0, nums, 0, false, true)
+	return dp6151(0, nums, 0, false, true)
 }
 
 /*
@@ -25,7 +25,7 @@ mask: 已经包含的数字
 isNum: 第i位之前是否填过数字
 isLimit: 第i位之前填的是否都是nums中的数字
 */
-func dp(i int, nums []int, mask int, isNum bool, isLimit bool) int {
+func dp6151(i int, nums []int, mask int, isNum bool, isLimit bool) int {
 	if i == len(nums) {
 		if !isNum {
 			return 0
@@ -36,7 +36,7 @@ func dp(i int, nums []int, mask int, isNum bool, isLimit bool) int {
 	from, to := 0, 9
 	if !isNum {
 		// i前面都没填
-		res += dp(i+1, nums, 0, false, false)
+		res += dp6151(i+1, nums, 0, false, false)
 		from = 1
 	}
 	if isLimit {
@@ -46,12 +46,8 @@ func dp(i int, nums []int, mask int, isNum bool, isLimit bool) int {
 	for j := from; j <= to; j++ {
 		// 没填过
 		if mask&(1<<j) == 0 {
-			res += dp(i+1, nums, mask|(1<<j), true, isLimit && (j == to))
+			res += dp6151(i+1, nums, mask|(1<<j), true, isLimit && (j == to))
 		}
 	}
 	return res
-}
-
-func main() {
-	print(countSpecialNumbers(20))
 }
