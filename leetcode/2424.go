@@ -9,7 +9,7 @@ type LUPrefix struct {
 	prefix int
 }
 
-func Constructor(n int) LUPrefix {
+func Constructor2424(n int) LUPrefix {
 	return LUPrefix{
 		nums:   make([]int, n+1),
 		prefix: 0,

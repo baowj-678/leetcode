@@ -4,7 +4,7 @@
  */
 package main
 
-func minOperations(logs []string) int {
+func minOperations1598(logs []string) int {
 	res := 0
 	for _, log := range logs {
 		if log[0] != '.' {

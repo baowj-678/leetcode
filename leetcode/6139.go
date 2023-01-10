@@ -6,7 +6,7 @@ package main
 
 import "fmt"
 
-func reachableNodes(n int, edges [][]int, restricted []int) int {
+func reachableNodes6139(n int, edges [][]int, restricted []int) int {
 	list := make([][]int, n)
 	flag := make([]bool, n)
 	restrictedMap := map[int]bool{}

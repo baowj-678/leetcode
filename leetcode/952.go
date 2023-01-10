@@ -49,7 +49,7 @@ func getLookUpTable(n int) []int {
 	return table
 }
 
-func find(parent []int, x int) int {
+func find952(parent []int, x int) int {
 	tmp := x
 	for parent[tmp] != tmp {
 		tmp = parent[tmp]
@@ -61,7 +61,7 @@ func find(parent []int, x int) int {
 }
 
 func merge(parent []int, size []int, x int, y int) {
-	yP := find(parent, y)
+	yP := find952(parent, y)
 	if yP != x {
 		parent[yP] = x
 		size[x] += size[yP]

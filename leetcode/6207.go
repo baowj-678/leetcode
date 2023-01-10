@@ -48,8 +48,3 @@ func countSubarrays(nums []int, minK int, maxK int) int64 {
 	}
 	return res
 }
-
-func main() {
-	nums := []int{1, 3, 5, 2, 7, 5}
-	countSubarrays(nums, 5, 5)
-}

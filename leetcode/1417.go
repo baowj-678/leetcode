@@ -17,7 +17,7 @@ func reformat(s string) string {
 			alphaP += 1
 		}
 	}
-	if abs(numP, alphaP) > 1 {
+	if abs1417(numP, alphaP) > 1 {
 		return ""
 	}
 	res := make([]int32, len(s))
@@ -55,7 +55,7 @@ func reformat(s string) string {
 	return string(res)
 }
 
-func abs(x int, y int) int {
+func abs1417(x int, y int) int {
 	if x > y {
 		return x - y
 	} else {

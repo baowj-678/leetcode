@@ -6,7 +6,7 @@ package main
 
 import "sort"
 
-func minimumOperations(nums []int) int {
+func minimumOperations6132(nums []int) int {
 	sort.Ints(nums)
 	last := -1
 	cnt := 0
