@@ -29,5 +29,5 @@ jobs:
           git config --global user.email "bwj_678@qq.com"
           git config --global user.name "leetcode-merge-robot"
           git add README.md
-          bash ../git-push.sh
+          bash  main/.github/workflows/git-push.sh
           git push https://${{secrets.PAT}}@github.com/baowj-678/leetcode.git
