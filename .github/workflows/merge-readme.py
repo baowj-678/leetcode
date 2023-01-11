@@ -112,7 +112,7 @@ def change_url(base_url, line):
     res = r.match(line)
     if res is not None:
         relative_url = res.group(1)
-        line = line.replace(relative_url, os.path.join("../../" + base_url, relative_url))
+        line = line.replace(relative_url, os.path.join(base_url, relative_url))
     return line
 
 
