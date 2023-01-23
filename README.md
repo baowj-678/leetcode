@@ -7,6 +7,11 @@
 * [sql](https://github.com/baowj-678/leetcode/tree/sql)
 ## 经典题目
 ## 题型分类
+### SQL
+* [175. 组合两个表](tree/sql/175.%20组合两个表.sql)【易】
+* [176. 第二高的薪水](tree/sql/176.%20第二高的薪水.sql)【易】
+* [177. 第N高的薪水](tree/sql/177.%20第N高的薪水.sql)【难】
+* [178. 分数排名](tree/sql/178.%20分数排名.sql)【难】
 ### 单调队列
 * [239. 滑动窗口最大值](tree/go/leetcode/239.go)【难，重要】
 ### 二叉树
@@ -69,9 +74,4 @@
 * [757. 设置交集大小至少为2](tree/java/src/main/java/com/leetcode/757.%20设置交集大小至少为2.java)【难，重要】
 ### 拓扑排序
 * [剑指 Offer II 115. 重建序列.java](tree/java/src/main/java/com/leetcode/剑指%20Offer%20II%20115.%20重建序列.java)【难，重要】
-### SQL
-* [175. 组合两个表](tree/sql/175.%20组合两个表.sql)【易】
-* [176. 第二高的薪水](tree/sql/176.%20第二高的薪水.sql)【易】
-* [177. 第N高的薪水](tree/sql/177.%20第N高的薪水.sql)【难】
-* [178. 分数排名](tree/sql/178.%20分数排名.sql)【难】
 ## 知识点总结
