@@ -11,7 +11,7 @@ type DataStream struct {
 	value  int
 }
 
-func Constructor(value int, k int) DataStream {
+func Constructor2526(value int, k int) DataStream {
 	return DataStream{
 		length: 0,
 		k:      k,

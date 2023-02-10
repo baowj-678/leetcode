@@ -5,61 +5,58 @@
  */
 package main
 
-import "sort"
-
 func splitArraySameAverage(nums []int) bool {
+	if len(nums) == 1 {
+		return false
+	}
 	sum := 0
 	for _, num := range nums {
 		sum += num
 	}
-	end := len(nums) - 1
-	for i, num := range nums {
-		if num*len(nums) == sum {
-			nums[end], nums[i] = 0, nums[end]
-			end--
+	for i := 0; i < len(nums); i++ {
+		nums[i] = nums[i]*len(nums) - sum
+	}
+	ma := make(map[int]struct{})
+	mb := make(map[int]struct{})
+	dfs805(nums[:len(nums)/2], 0, 0, ma, 0)
+	dfs805(nums[len(nums)/2:], 0, 0, mb, 0)
+
+	suma := 0
+	for _, num := range nums[:len(nums)/2] {
+		suma += num
+	}
+	if suma == 0 {
+		return true
+	}
+	for key, _ := range ma {
+		if key == 0 {
+			return true
+		}
+		if _, ok := mb[-key]; ok {
+			return true
 		}
 	}
-	if end < 0 {
-		return true
-	}
-	nums = nums[:end+1]
-	sort.Ints(nums)
-	return dfs805(nums, 0, 0, 0, sum)
-}
 
-func dfs805(nums []int, idx, tmp, cnt, sum int) bool {
-	if tmp == sum {
-		return false
-	}
-	if tmp*len(nums) == sum*cnt && cnt != 0 {
-		return true
-	}
-	if tmp*len(nums) > sum*cnt && nums[idx]*len(nums) >= sum {
-		return false
-	}
-
-	if idx < len(nums)-1 && dfs805(nums, idx+1, tmp, cnt, sum) {
-		return true
-	}
-
-	tmp += nums[idx]
-	cnt++
-	if tmp == sum {
-		return false
-	}
-	if tmp*len(nums) == sum*cnt && cnt != 0 {
-		return true
-	}
-	if tmp*len(nums) > sum*cnt && nums[idx]*len(nums) >= sum {
-		return false
-	}
-	if idx < len(nums)-1 && dfs805(nums, idx+1, tmp, cnt, sum) {
-		return true
+	for key, _ := range mb {
+		if key == 0 {
+			return true
+		}
+		if _, ok := ma[-key]; ok {
+			return true
+		}
 	}
 	return false
 }
 
-func main() {
-	nums := []int{3, 12, 3, 4, 5, 6}
-	print(splitArraySameAverage(nums))
+func dfs805(nums []int, idx int, sum int, m map[int]struct{}, record int) {
+	if idx == len(nums) {
+		if record != (1<<len(nums))-1 {
+			if record != 0 {
+				m[sum] = struct{}{}
+			}
+		}
+		return
+	}
+	dfs805(nums, idx+1, sum, m, record)
+	dfs805(nums, idx+1, sum+nums[idx], m, record|0b1<<idx)
 }
