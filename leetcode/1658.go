@@ -7,7 +7,7 @@ package main
 
 import "math"
 
-func minOperations(nums []int, x int) int {
+func minOperations1658(nums []int, x int) int {
 	sum := 0
 	for _, num := range nums {
 		sum += num
