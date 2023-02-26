@@ -7,11 +7,6 @@
 * [sql](https://github.com/baowj-678/leetcode/tree/sql)
 ## 经典题目
 ## 题型分类
-### SQL
-* [175. 组合两个表](tree/sql/175.%20组合两个表.sql)【易】
-* [176. 第二高的薪水](tree/sql/176.%20第二高的薪水.sql)【易】
-* [177. 第N高的薪水](tree/sql/177.%20第N高的薪水.sql)【难】
-* [178. 分数排名](tree/sql/178.%20分数排名.sql)【难】
 ### 单调队列
 * [239. 滑动窗口最大值](tree/go/leetcode/239.go)【难，重要】
 * [1124. 表现良好的最长时间段](tree/go/leetcode/1124.go)【难】
@@ -54,6 +49,7 @@
 * [813. 最大平均值和的分组](tree/go/leetcode/813.go)【难】
 * [600. 不含连续1的非负整数](tree/go/leetcode/600.go)【难，排列组合 + 动态规划】
 * [1223. 掷骰子模拟](tree/go/leetcode/1223.go)【中】
+* [1140. 石子游戏 II](tree/go/leetcode/1140.go)【难，记忆化搜索 + 博弈】
 ### 二分查找
 * [2560. 打家劫舍 IV](tree/go/leetcode/2560.go)【难，`最大最小`&`最小最大`要考虑二分法】
 ### 分治
@@ -74,6 +70,11 @@
 * [850. 矩形面积 II](tree/go/leetcode/850.go)【难，重要，扫描线，线段树】
 * [6207. 统计定界子数组的数目](tree/go/leetcode/6207.go)【难，双指针】
 * [792. 匹配子序列的单词数](tree/go/leetcode//792.go)【难，二分查找】
+### SQL
+* [175. 组合两个表](tree/sql/175.%20组合两个表.sql)【易】
+* [176. 第二高的薪水](tree/sql/176.%20第二高的薪水.sql)【易】
+* [177. 第N高的薪水](tree/sql/177.%20第N高的薪水.sql)【难】
+* [178. 分数排名](tree/sql/178.%20分数排名.sql)【难】
 ### 差分数组
 * [731. 我的日程安排表 II](tree/java/src/main/java/com/leetcode/731.%20我的日程安排表%20II.java)
 ### 贪心算法
