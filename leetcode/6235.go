@@ -2,7 +2,7 @@ package main
 
 import "sort"
 
-func minimumOperations(root *TreeNode) int {
+func minimumOperations6235(root *TreeNode) int {
 	res := 0
 	queue := []*TreeNode{root, nil}
 	vec := []int{}
