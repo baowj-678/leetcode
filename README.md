@@ -60,6 +60,7 @@
 * [172. 阶乘后的零](tree/go/leetcode/172.go)【难，重要】
 * [793. 阶乘函数后 K 个零](tree/go/leetcode/793.go)【难，重要】
 * [1359. 有效的快递序列数目](tree/go/leetcode/1359.go)【难，重要】
+* [1238. 循环码排列](tree/go/leetcode/1238.go)【难，格雷码】
 ### 桶
 * [1370. 上升下降字符串](tree/go/leetcode/1370.go)【易，重要】
 ### 状态压缩
