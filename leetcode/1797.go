@@ -10,7 +10,7 @@ type AuthenticationManager struct {
 	timeToLive int
 }
 
-func Constructor(timeToLive int) AuthenticationManager {
+func Constructor1797(timeToLive int) AuthenticationManager {
 	return AuthenticationManager{timeToLive: timeToLive, m: make(map[string]int)}
 }
 
