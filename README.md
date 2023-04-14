@@ -7,6 +7,17 @@
 * [sql](https://github.com/baowj-678/leetcode/tree/sql)
 ## 经典题目
 ## 题型分类
+### 差分数组
+* [731. 我的日程安排表 II](tree/java/src/main/java/com/leetcode/731.%20我的日程安排表%20II.java)
+### 贪心算法
+* [757. 设置交集大小至少为2](tree/java/src/main/java/com/leetcode/757.%20设置交集大小至少为2.java)【难，重要】
+### 拓扑排序
+* [剑指 Offer II 115. 重建序列.java](tree/java/src/main/java/com/leetcode/剑指%20Offer%20II%20115.%20重建序列.java)【难，重要】
+### SQL
+* [175. 组合两个表](tree/sql/175.%20组合两个表.sql)【易】
+* [176. 第二高的薪水](tree/sql/176.%20第二高的薪水.sql)【易】
+* [177. 第N高的薪水](tree/sql/177.%20第N高的薪水.sql)【难】
+* [178. 分数排名](tree/sql/178.%20分数排名.sql)【难】
 ### 单调队列
 * [239. 滑动窗口最大值](tree/go/leetcode/239.go)【难，重要】
 * [1124. 表现良好的最长时间段](tree/go/leetcode/1124.go)【难】
@@ -71,15 +82,4 @@
 * [850. 矩形面积 II](tree/go/leetcode/850.go)【难，重要，扫描线，线段树】
 * [6207. 统计定界子数组的数目](tree/go/leetcode/6207.go)【难，双指针】
 * [792. 匹配子序列的单词数](tree/go/leetcode//792.go)【难，二分查找】
-### SQL
-* [175. 组合两个表](tree/sql/175.%20组合两个表.sql)【易】
-* [176. 第二高的薪水](tree/sql/176.%20第二高的薪水.sql)【易】
-* [177. 第N高的薪水](tree/sql/177.%20第N高的薪水.sql)【难】
-* [178. 分数排名](tree/sql/178.%20分数排名.sql)【难】
-### 差分数组
-* [731. 我的日程安排表 II](tree/java/src/main/java/com/leetcode/731.%20我的日程安排表%20II.java)
-### 贪心算法
-* [757. 设置交集大小至少为2](tree/java/src/main/java/com/leetcode/757.%20设置交集大小至少为2.java)【难，重要】
-### 拓扑排序
-* [剑指 Offer II 115. 重建序列.java](tree/java/src/main/java/com/leetcode/剑指%20Offer%20II%20115.%20重建序列.java)【难，重要】
 ## 知识点总结
