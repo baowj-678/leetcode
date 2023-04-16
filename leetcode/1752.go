@@ -5,7 +5,7 @@
  */
 package main
 
-func check(nums []int) bool {
+func check1752(nums []int) bool {
 	for i := 0; i < len(nums); i++ {
 		isOk := true
 		last := nums[i]
