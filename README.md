@@ -81,5 +81,6 @@
 * [667. 优美的排列 II](tree/go/leetcode/667.go)【中，重要】
 * [850. 矩形面积 II](tree/go/leetcode/850.go)【难，重要，扫描线，线段树】
 * [6207. 统计定界子数组的数目](tree/go/leetcode/6207.go)【难，双指针】
-* [792. 匹配子序列的单词数](tree/go/leetcode//792.go)【难，二分查找】
+* [792. 匹配子序列的单词数](tree/go/leetcode/792.go)【难，二分查找】
+* [1157. 子数组中占绝大多数的元素](tree/go/leetcode/1157.go)【难，随机化】
 ## 知识点总结
