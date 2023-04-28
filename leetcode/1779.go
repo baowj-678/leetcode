@@ -12,7 +12,7 @@ func nearestValidPoint(x int, y int, points [][]int) int {
 	index := 0
 	for i, point := range points {
 		if x == point[0] || y == point[1] {
-			tmp := abs(x-point[0]) + abs(y-point[1])
+			tmp := abs1779(x-point[0]) + abs1779(y-point[1])
 			if tmp < dis {
 				dis = tmp
 				index = i
@@ -22,7 +22,7 @@ func nearestValidPoint(x int, y int, points [][]int) int {
 	return index
 }
 
-func abs[T int | float64](x T) T {
+func abs1779[T int | float64](x T) T {
 	if x < 0 {
 		return -x
 	}

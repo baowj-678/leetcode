@@ -7,7 +7,7 @@ package main
 import "strconv"
 
 func printTree(root *TreeNode) [][]string {
-	h := height(root) - 1
+	h := height655(root) - 1
 	list := make([][]string, h+1)
 	n := pow2(h+1) - 1
 	for i := 0; i < len(list); i++ {
@@ -27,12 +27,12 @@ func dfs655(h int, r int, c int, root *TreeNode, list [][]string) {
 	dfs655(h, r+1, c+delta, root.Right, list)
 }
 
-func height(root *TreeNode) int {
+func height655(root *TreeNode) int {
 	if root == nil {
 		return 0
 	}
-	l := height(root.Left)
-	r := height(root.Right)
+	l := height655(root.Left)
+	r := height655(root.Right)
 	if l > r {
 		return l + 1
 	} else {

@@ -11,7 +11,7 @@ type StreamChecker struct {
 	idx     int
 }
 
-func Constructor(words []string) StreamChecker {
+func Constructor1032(words []string) StreamChecker {
 	max := func(a, b int) int {
 		if a > b {
 			return a
