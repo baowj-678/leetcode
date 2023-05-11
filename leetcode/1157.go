@@ -12,7 +12,7 @@ type MajorityChecker struct {
 	arr          []int
 }
 
-func Constructor(arr []int) MajorityChecker {
+func Constructor1157(arr []int) MajorityChecker {
 	m := map[int][]int{}
 	for i, v := range arr {
 		if _, ok := m[v]; !ok {
