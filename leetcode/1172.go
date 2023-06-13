@@ -6,7 +6,6 @@ package main
 
 import (
 	"container/list"
-	"fmt"
 )
 
 type DinnerPlates struct {
@@ -16,7 +15,7 @@ type DinnerPlates struct {
 	//m      map[int]*list.Element
 }
 
-func Constructor(capacity int) DinnerPlates {
+func Constructor1172(capacity int) DinnerPlates {
 	list := list.New()
 	list.PushBack(0)
 	return DinnerPlates{
@@ -106,25 +105,4 @@ func insertIdx(list *list.List, idx int) {
 	if head == nil {
 		list.PushBack(idx)
 	}
-}
-
-func main() {
-	D := Constructor(2)
-	D.Push(1)
-	D.Push(2)
-	D.Push(3)
-	D.Push(4)
-	D.Push(5)
-
-	fmt.Println(D.PopAtStack(0))
-	D.Push(20)
-	D.Push(21)
-	fmt.Println(D.PopAtStack(1))
-	fmt.Println(D.PopAtStack(1))
-
-	fmt.Println(D.Pop())
-	fmt.Println(D.Pop())
-	fmt.Println(D.Pop())
-	fmt.Println(D.Pop())
-	fmt.Println(D.Pop())
 }
