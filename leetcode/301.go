@@ -26,6 +26,7 @@ func removeInvalidParentheses(s string) []string {
 	strs := dfs301(s, flags, l, r, 0, 0)
 	m := map[string]struct{}{}
 	for _, str := range strs {
+
 		m[str] = struct{}{}
 	}
 	res := make([]string, len(m))
