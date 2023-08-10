@@ -6,7 +6,7 @@ package main
 
 import "math"
 
-func minFallingPathSum(matrix [][]int) int {
+func minFallingPathSum931(matrix [][]int) int {
 	dp := make([]int, len(matrix[0]))
 	copy(dp, matrix[0])
 	min := func(x, y int) int {
