@@ -81,6 +81,8 @@
 * [1157. 子数组中占绝大多数的元素](tree/go/leetcode/1157.go)【难，随机化】
 * [1483. 树节点的第 K 个祖先](tree/go/leetcode/1483.go)【难，倍增】
 * [1819. 序列中不同最大公约数的数目](tree/go/leetcode/1819.go)【难，枚举答案】
+### 优先队列
+* [1499. 满足不等式的最大值](tree/go/leetcode/1499.go)【难】
 ### 差分数组
 * [731. 我的日程安排表 II](tree/java/src/main/java/com/leetcode/731.%20我的日程安排表%20II.java)
 ### 贪心算法
