@@ -9,7 +9,7 @@ type TreeAncestor struct {
 	n      int
 }
 
-func Constructor(n int, parent []int) TreeAncestor {
+func TreeAncestorConstructor(n int, parent []int) TreeAncestor {
 	pa := make([][16]int, len(parent))
 	for i := 0; i < len(parent); i++ {
 		pa[i][0] = parent[i]
