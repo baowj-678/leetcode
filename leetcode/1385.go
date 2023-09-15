@@ -5,6 +5,13 @@
 package main
 
 func findTheDistanceValue(arr1 []int, arr2 []int, d int) int {
+	abs1385 := func(x int) int {
+		if x < 0 {
+			x = -x
+		}
+		return x
+	}
+
 	res := 0
 	for _, x := range arr1 {
 		for _, y := range arr2 {
@@ -16,11 +23,4 @@ func findTheDistanceValue(arr1 []int, arr2 []int, d int) int {
 		res++
 	}
 	return res
-}
-
-func abs1385(x int) int {
-	if x < 0 {
-		x = -x
-	}
-	return x
 }

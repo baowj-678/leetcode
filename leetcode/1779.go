@@ -8,6 +8,13 @@ package main
 import "math"
 
 func nearestValidPoint(x int, y int, points [][]int) int {
+	abs1779 := func(x int) int {
+		if x < 0 {
+			return -x
+		}
+		return x
+	}
+
 	dis := math.MaxInt
 	index := 0
 	for i, point := range points {
@@ -20,11 +27,4 @@ func nearestValidPoint(x int, y int, points [][]int) int {
 		}
 	}
 	return index
-}
-
-func abs1779[T int | float64](x T) T {
-	if x < 0 {
-		return -x
-	}
-	return x
 }

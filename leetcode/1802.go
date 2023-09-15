@@ -6,6 +6,12 @@
 package main
 
 func maxValue(n int, index int, maxSum int) int {
+	AbsInt1802 := func(x int) int {
+		if x < 0 {
+			return -x
+		}
+		return x
+	}
 	res := 1
 	maxSum -= n
 	if maxSum == 0 {
@@ -63,11 +69,4 @@ func maxValue(n int, index int, maxSum int) int {
 	// n
 	res += maxSum / n
 	return res
-}
-
-func AbsInt1802(x int) int {
-	if x < 0 {
-		return -x
-	}
-	return x
 }

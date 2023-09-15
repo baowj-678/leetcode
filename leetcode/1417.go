@@ -9,6 +9,13 @@ import (
 )
 
 func reformat(s string) string {
+	abs1417 := func(x int, y int) int {
+		if x > y {
+			return x - y
+		} else {
+			return y - x
+		}
+	}
 	alphaP, numP := 0, 0
 	for i := 0; i < len(s); i++ {
 		if unicode.IsDigit(rune(s[i])) {
@@ -53,12 +60,4 @@ func reformat(s string) string {
 		}
 	}
 	return string(res)
-}
-
-func abs1417(x int, y int) int {
-	if x > y {
-		return x - y
-	} else {
-		return y - x
-	}
 }

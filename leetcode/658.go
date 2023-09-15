@@ -7,6 +7,12 @@ package main
 import "fmt"
 
 func findClosestElements(arr []int, k int, x int) []int {
+	AbsInt := func(x int) int {
+		if x < 0 {
+			return -x
+		}
+		return x
+	}
 	start, end := 0, k-1
 	for i := k; i < len(arr); i++ {
 		if AbsInt(arr[i]-x) < AbsInt(arr[end]-x) {
@@ -20,13 +26,6 @@ func findClosestElements(arr []int, k int, x int) []int {
 		}
 	}
 	return arr[start : end+1]
-}
-
-func AbsInt(x int) int {
-	if x < 0 {
-		return -x
-	}
-	return x
 }
 
 func main() {
