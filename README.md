@@ -7,6 +7,12 @@
 * [sql](https://github.com/baowj-678/leetcode/tree/sql)
 ## 经典题目
 ## 题型分类
+### 差分数组
+* [731. 我的日程安排表 II](tree/java/src/main/java/com/leetcode/731.%20我的日程安排表%20II.java)
+### 贪心算法
+* [757. 设置交集大小至少为2](tree/java/src/main/java/com/leetcode/757.%20设置交集大小至少为2.java)【难，重要】
+### 拓扑排序
+* [剑指 Offer II 115. 重建序列.java](tree/java/src/main/java/com/leetcode/剑指%20Offer%20II%20115.%20重建序列.java)【难，重要】
 ### SQL
 * [175. 组合两个表](tree/sql/175.%20组合两个表.sql)【易】
 * [176. 第二高的薪水](tree/sql/176.%20第二高的薪水.sql)【易】
@@ -83,10 +89,4 @@
 * [1819. 序列中不同最大公约数的数目](tree/go/leetcode/1819.go)【难，枚举答案】
 ### 优先队列
 * [1499. 满足不等式的最大值](tree/go/leetcode/1499.go)【难】
-### 差分数组
-* [731. 我的日程安排表 II](tree/java/src/main/java/com/leetcode/731.%20我的日程安排表%20II.java)
-### 贪心算法
-* [757. 设置交集大小至少为2](tree/java/src/main/java/com/leetcode/757.%20设置交集大小至少为2.java)【难，重要】
-### 拓扑排序
-* [剑指 Offer II 115. 重建序列.java](tree/java/src/main/java/com/leetcode/剑指%20Offer%20II%20115.%20重建序列.java)【难，重要】
 ## 知识点总结
