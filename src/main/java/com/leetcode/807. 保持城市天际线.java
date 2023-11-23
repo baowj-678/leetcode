@@ -5,7 +5,7 @@
  */
 package com.leetcode;
 
-class Solution {
+class Solution807 {
     public int maxIncreaseKeepingSkyline(int[][] grid) {
         int m = grid.length, n = grid[0].length;
         int[] mDirect = new int[m];
