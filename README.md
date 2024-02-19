@@ -50,6 +50,10 @@
 * [1140. 石子游戏 II](tree/go/leetcode/1140.go)【难，记忆化搜索 + 博弈】
 * [1130. 叶值的最小代价生成树](tree/go/leetcode/1130.go) 【难，动态规划】
 * [1691. 堆叠长方体的最大高度](tree/go/leetcode/1691.go) 【难】
+* [2809. 使数组和小于等于 x 的最少时间](tree/go/leetcode/2809.go) 【难】
+### 博弈
+* [1686. 石子游戏 VI](tree/go/leetcode/1686.go)【难】
+* [1690. 石子游戏 VII](tree/go/leetcode/1690.go)【难，记忆化搜索】
 ### 二分查找
 * [2560. 打家劫舍 IV](tree/go/leetcode/2560.go)【难，`最大最小`&`最小最大`要考虑二分法】
 ### 分治
